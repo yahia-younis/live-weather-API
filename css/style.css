@@ -1,0 +1,89 @@
+/* global style */
+* {
+  text-transform: capitalize;
+  padding: 0;
+  margin: 0;
+  font-family: 'Secular One', sans-serif;
+}
+.navbar-brand img {
+  width: 160px;
+}
+.navbar-nav a {
+  color: #fff;
+  transition: 0.3s all;
+  font-size: 1.3rem;
+}
+.navbar-nav a:hover {
+  color: #23A8E6;
+  transition: 0.3s all;
+}
+.form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgba(56, 56, 56, 0.25);
+  border-color: #3d3d3d;
+}
+.form-control {
+  background-color: #ffffff;
+  transition: .5s all;
+}
+#country_location {
+  width: 50%;
+  margin-right: 1rem;
+}
+.weather-info {
+  background-image: url(../img/morning.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  height: calc(100% - 74px);
+}
+
+.box-layout {
+  position: absolute;
+  background-color: #fff;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  border-radius: 10px;
+  filter: blur(1px);
+  opacity: .8;
+  box-shadow: 0 1rem 3rem rgba(0,0,0, .3);
+}
+.box-content {
+  position: relative;
+  z-index: 2;
+}
+.forecast-header {
+  padding: 1rem;
+  border-bottom: 1px solid #aaaaaa8e;
+}
+.forecast-body {
+  padding: 2rem 1rem;
+}
+.forecast-footer {
+  margin-bottom: 2rem;
+}
+.forecast-body .num{
+  font-size: 4rem;
+  font-weight: bold;
+}
+.forecast-footer span {
+  margin-right: 1rem;
+}
+.forecast-footer span i {
+  padding-right: .5rem;
+  color: #23A8E6;
+}
+.degree .big-num {
+  font-size: 2rem;
+}
+.footer {
+  border-top: 1px solid #aaaaaa8e;
+}
+.footer p {
+  font-size: .9rem;
+}

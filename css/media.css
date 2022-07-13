@@ -1,0 +1,47 @@
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .navbar-nav li {
+    margin-top: 1rem;
+  }
+  #location_search {
+    width: 70%;
+  }
+  .weather-info {
+    height: unset;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .navbar-nav li {
+    margin-top: 1rem;
+  }
+  #location_search {
+    width: 70%;
+  }
+  .weather-info {
+    height: unset;
+  }
+  .weather-info-boxs {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  #location_search {
+    width: 100%;
+  }
+}
